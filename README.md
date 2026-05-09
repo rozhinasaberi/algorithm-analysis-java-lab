@@ -1,31 +1,43 @@
 # RojinaSaberi_COMP254Lab2
 
-A COMP254 Java lab covering algorithm analysis, runtime reasoning, and introductory problem solving.
+A COMP254 algorithm analysis lab with a Streamlit tutor app that teaches runtime reasoning and problem-solving strategies.
 
 ## What This Project Is About
 
-This lab contains three exercises focused on asymptotic analysis and basic algorithm design. The code includes Big-O examples, a timing comparison for uniqueness-checking methods, and a helper for finding a value that cannot be expressed as a sum of two array elements.
+This repository contains Java exercises on asymptotic analysis, uniqueness checking, and array reasoning. It now also includes a Streamlit tutor app that explains Big-O growth, compares algorithm behavior interactively, and helps users build intuition for how different approaches scale.
 
-This is a **Java data structures and algorithm analysis lab**.
+This is a **Java algorithm analysis project with an AI tutor style Streamlit app**.
 
-## Exercises Included
+## What The Tutor App Teaches
 
-- `Exercise1` - Big-O examples and runtime analysis
-- `Exercise2` - uniqueness timing experiment with `unique1` and `unique2`
-- `Exercise3` - non-two-sum style problem solving
+- how common time complexities compare
+- why nested loops often increase runtime quickly
+- how uniqueness checks can be optimized
+- how to reason through array-search style problems step by step
 
 ## Project Structure
 
+- `app.py` - Streamlit tutor app
+- `requirements.txt` - Python dependencies for the tutor app
 - `src/com/exercise1/rojina/saberi/`
 - `src/com/exercise2/rojina/saberi/`
 - `src/com/exercise3/rojina/saberi/`
 - `src/module-info.java`
 
-## Open Or Run
+## Run The Streamlit App
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## Open The Java Project
 
 Import the project into Eclipse and run the individual exercise classes from `src/`.
 
 ## Tech Stack
 
 - Java
+- Python
+- Streamlit
 - Eclipse
